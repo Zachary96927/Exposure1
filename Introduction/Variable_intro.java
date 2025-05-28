@@ -7,16 +7,16 @@ public class Variable_intro {
         *to create a variable
         * datatype name = value
          */
-        int apples = 100;
-        double bapple = 50;
+        int salary = 100;
+        double bonus = 50;
         /*
         *Casting variable means changing datatype
         * to change primitive data type, put new type in ()
         * Example:
          */
-        bapple = (int) apples;
+        salary = (int) bonus;
 
-        System.out.println(bapple);
-        System.out.println(apples);
+        System.out.println(salary);
+        System.out.println(bonus);
     }
 }
