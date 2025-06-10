@@ -34,7 +34,7 @@ public class Lab11avst {
         //output all list value
         for (int i = 2; i < primes.length; i++) {
             if (primes[i] == true) {
-                System.out.print(primes[i] + " ");
+                System.out.print(i + " ");
             }
         }
         System.out.println();
